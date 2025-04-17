@@ -1,0 +1,1182 @@
+/* style untuk secara keseluruahnnya */
+* {
+    margin: 0px;
+    padding: 2px;
+}
+
+/* untuk keseluruhan background */
+body {
+    background-color: #C7D9DD;
+}
+
+/* style untuk introduction */
+.introduction h1 {
+    color: white;
+    text-align: center;
+    
+}
+
+.introduction p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+/* style untuk syntax dan selectors */
+
+.syntax {
+    margin: 3px;
+    padding: 5px;
+}
+
+.syntax h1 {
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.syntax p {
+    color: red;
+    text-align: center;
+    margin-bottom: 5px;
+} 
+
+/* style untuk colors */
+.colors {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.colors h1 {
+    color: rgb(154, 59, 78); 
+    margin-bottom: 5px;   
+}
+
+.colors h3 {
+    background-color: coral;
+    padding: 5px;
+}
+
+.colors p {
+    background-color: brown;
+    color: #a9a9a9;
+}
+
+/* style untuk background - opacity */
+.bckgrnd_opacity h1 {
+    background: #C7D9DD;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.first {
+    background: #6F826A;
+    opacity:10%;
+}
+
+.second {
+    background: #6F826A;
+    opacity: 30%;
+}
+
+.third {
+    background: #6F826A;
+    opacity: 60%;
+}
+
+.bckgrnd_opacity div {
+    background: #6F826A;
+    text-align: center;
+    padding: 20px;
+}
+
+/* style untuk borders */
+.borders {
+    text-align: center;
+}
+
+.borders h1 {
+    color: black;
+    /* text-align: center; */
+    margin-top: 30px;
+}
+
+.border {
+    text-align: center;
+    border-style: solid;    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.border_width {
+    border-style: dotted;
+    border-width: thick;
+    text-align: center;
+}
+
+.border_colors {
+    border-style: dashed;
+    border-color: darkgreen;
+    margin-top: 10px;
+}
+
+.border_sides {
+    border-top-style: double;
+    border-left-style: solid ;
+    border-bottom-style: double;
+    border-right-style: solid;
+    margin-top: 10px;
+}
+
+.border_shorthand {
+    border-style: groove;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* style untuk margin */
+.margin h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.margin p {
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.margin_collaps {
+    margin: 0 0 50px 0;
+}
+
+/* style untuk padding */
+.padding {
+    text-align: center;
+}
+
+.individual_sides {
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.shorthand_property {
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 25px 50px 75px 100px;
+    background-color: lightblue;
+}
+
+/* style untuk height/width */
+.heigth_width {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.max_width_property {
+    max-width: 500px;
+    height: 100px;
+    background-color: powderblue;  
+}
+
+/* style untuk box-model */
+.box-model {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.total_width {
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+/* style untuk outline */
+.outline {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.outline-width {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
+  margin-top: 10px;
+}
+
+.outline-color {
+  border: 2px solid black;
+  outline-style: dotted;
+  outline-color: blue;
+  margin-top: 10px;
+}
+
+.shorthand-property {
+    outline: 5px solid rgb(117, 175, 222);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.outline-offset {
+    margin: 30px;
+    background:rgb(233, 205, 182);
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
+
+/* style untuk text */
+.text {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.color_background_color {
+  background-color: black;
+  color: white;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.text_alignment {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.decoration_line {
+  text-decoration-line: underline;
+  text-decoration-color: red
+}
+
+.text_transformation {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* 3 dibawah ini khusus untuk text tranfomation */
+.uppercase {
+    text-transform: uppercase
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.text_spacing {
+    text-indent: 50px;
+    text-align: justify;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+.text_shadow {
+    text-shadow: 2px 2px 5px red;
+}
+
+/* style untuk fonts */
+.fonts {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.font_familiy {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.web_safe {
+    font-family: 'Courier New', monospace;
+    margin-top: 15px;
+}
+
+.fallbacks {
+    font-family: "Brush Script MT", cursive;
+}
+
+.stlye {
+    font-style: oblique;
+}
+
+.size {
+    font-size: 40px;
+}
+
+.google {
+    font-family: "Audiowide", sans-serif;
+    margin-top: 10px;
+}
+
+.pairings h1 {
+  font-family: Cinzel, serif;
+  font-size: 46px;
+}
+
+.pairings p {
+  font-family: 'Fauna One', serif;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.font_shorthand {
+    font: italic small-caps bold 12px/30px Georgia, serif;
+    margin-top: 15px;
+}
+
+/* style untuk icons */
+.icons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
+/* style untuk links */
+.links {
+    margin-top: 15px;
+    text-align: center;    
+}
+
+a:link {
+    color: red;
+}
+  
+  /* visited link */
+a:visited {
+    color: green;
+}
+  
+  /* mouse over link */
+a:hover {    
+    color: hotpink;
+  }
+  
+  /* selected link */
+a:active {
+    color: blue;
+}
+
+.link_button {
+    text-align: center;
+}
+
+.link_button a:link, a:visited{    
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.link_button a:hover, a:active {
+    background-color: red;
+}
+
+/* style untuk lists */
+.lists h1 {
+    text-align: center;
+    margin-top: 20px;    
+}
+
+.circle {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.square {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.upper-roman {
+    list-style-type: upper-roman;
+    margin-left: 20px;
+}
+
+.lower-alpha {
+    list-style-type: lower-alpha;
+    margin-left: 20px;
+}
+
+/* style untuk tables */
+.tables h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.table-borders table,tr,th,td{
+    border: 1px solid;
+}
+
+.table_size p {
+    text-align: left;
+    margin-top: 10px;
+    color: rgb(241, 165, 65);
+}
+
+.table_size table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+/* table alignment */
+.horizontal p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.horizontal table, td, th {
+    border: 1px solid black;
+}
+
+.horizontal table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.horizontal  th {
+    text-align: left;
+}
+
+.vertikal p {
+    margin-top: 20px;
+    text-align: center;  
+    font-size: 20px;  
+}
+
+.vertikal table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.vertikal td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+.vertikal table, td, th {
+    border: 1px solid black;
+}
+
+.table_style p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.hoverable_table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.hoverable_table th,td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.hoverable_table tr:hover {
+    background-color: coral;
+}
+
+.table_responsive {
+    overflow-x: auto;
+}
+
+.table_responsive table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.table_responsive  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+.table_responsive tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* style untuk display */
+.display h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.display p,li {
+    display: inline;
+}
+
+/* style untuk max_width */
+.max_width h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.one {
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+    margin-bottom: 10px;
+}
+
+.two {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+    }
+
+/* style untuk position */
+.position h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50; 
+}
+
+.text_position {
+    padding-bottom: 50px;    
+}
+
+/* style untuk z-index */
+.z-index h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.z-index img {    
+    position: absolute;
+    left: 70px;
+    top: 6030px;
+    z-index: -1;
+}
+
+/* style untuk overflow */
+.overflow h1 {
+    margin-top: 170px;
+    text-align: center;
+}
+
+.visible {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;
+    float:left
+}
+
+.hidden {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: hidden;
+    float: left;
+}
+
+.scroll {
+    background-color: coral;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+    float: left;
+}
+
+.auto {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: auto;
+    float: left;
+}
+
+.overflow-x_overflow-y {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;   
+}
+
+/* style untuk float */
+.float {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.float h1 {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.right img {
+    float: right;
+    width:120px;
+    height:120px;
+    margin-left:15px;
+    /* margin-bottom: 15px; */
+    /* padding-bottom: 10px; */
+}
+
+.float p {
+    padding: 10px;
+}
+
+/* style untuk inline-box */
+.inline-box h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow;     
+}
+
+.span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+}
+
+.span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+}
+
+/* style untuk align */
+.align h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.align img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* style untuk combinators */
+.combinators h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.khusus p {
+    background-color: yellow;
+}
+
+.kecil > p{
+    background-color: yellow;
+}
+
+.next + p {
+    background-color: yellow;
+}
+
+.subsequent ~ p {
+    background-color: yellow;
+}
+
+/* style untuk pseudo-classes*/
+.pseudo-classes h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.div {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.div:hover {
+    background-color: blue;
+}
+
+/* style untuk pseudo-elements */
+.pseudo-elements h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.intro::first-letter {
+    color: #ff0000;
+    font-size: 200%;
+}
+
+
+/* style untuk opacity */
+.opacity h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.opacity img {
+    opacity: 0.5;
+}
+  
+.opacity img:hover {
+    opacity: 1.0;
+}
+
+/* style untuk navigation_bar*/
+.navigation_bar h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navbar {
+    color: #73AD21;
+}
+
+.vertical_bar {
+
+}
+
+.vertical_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+  
+.vertical_bar a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+  
+.vertical_bar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+  
+.vertical_bar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.horizontal_bar {
+
+}
+
+.horizontal_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.horizontal_bar li {
+    float: left;
+}
+  
+.horizontal_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.horizontal_bar li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.horizontal_bar active {
+    background-color: #04AA6D;
+}
+
+/* style untuk dropdowns */
+.dropdowns h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* style untuk image_gallery*/
+.image_gallery h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+div.gallery {
+    border: 2px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 2px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* style untuk imgae_sprites */
+.imgae_sprites h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navlist {
+    position: relative;
+}
+  
+.navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+  
+.navlist li, .navlist a {
+    height: 44px;
+    display: block;
+}
+  
+#navlist home {
+    left: 0px;
+    width: 46px;
+    background: url('img_navsprites_hover.gif') 0 0;
+}
+  
+#navlist prev {
+    left: 63px;
+    width: 43px;
+    background: url('img_navsprites_hover.gif') -47px 0;
+  }
+  
+#navlist next {
+    left: 129px;
+    width: 43px;
+    background: url('img_navsprites_hover.gif') -91px 0;
+}
+  
+.navlist home a:hover {
+    background: url('img_navsprites_hover.gif') 0 -45px;
+}
+  
+.navlist prev a:hover {
+    background: url('img_navsprites_hover.gif') -47px -45px;
+}
+  
+.navlist next a:hover {
+    background: url('img_navsprites_hover.gif') -91px -45px;
+}
+
+/* style untuk attribute-selectors*/
+.attribute-selectors h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.attribute-selectors a[target="_blank"] {
+    background-color: yellow;
+}
+
+/* style untuk froms */
+.froms h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* style untuk counters */
+.counters h2 {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.counters body {
+    counter-reset: section;
+}
+  
+.counters h2 {
+    counter-reset: subsection;
+}
+  
+.counters h2::before {
+    counter-increment: section;
+    content: "Section " counter(section) ". ";
+}
+  
+.counters h3::before {
+    counter-increment: subsection;
+    content: counter(section) "." counter(subsection) " ";
+}
+
+/* style untuk website-layout*/
+.website-layout h1 {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.website-layout * {
+    box-sizing: border-box;
+}
+  
+.website-layout body {
+    margin: 0;
+}
+  
+  /* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+  
+  /* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+  /* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+  /* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+  
+  /* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+/* style untuk units */
+.units h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cm h2 {
+    font-size: 1.5cm;
+}
+.cm h3 {
+    font-size: 1cm;
+}
+.cm p {
+  font-size: 0.5cm;
+  line-height: 1cm;
+}
+
+/* style untuk specificity */
+.specificity h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#demo {
+    color: blue;
+}
+
+.test {
+    color: green;
+} 
+
+.specificity p {
+    color: red;
+    text-align: center;
+}
+
+/* style untuk important */
+.important h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#myid {
+    background-color: blue !important;
+    padding: 1px;
+    margin: 2px;
+}
+  
+.myclass  {
+    background-color: gray !important;
+    padding: 1px;
+    margin: 2px;
+}
+  
+.p{
+    background-color: red !important;
+    padding: 1px;
+    margin: 2px;
+    
+}
+
+/* style untuk math_function */
+.math_function h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#div1 {
+    position: absolute;
+    left: 50px;
+    width: calc(100% - 100px);
+    border: 1px solid black;
+    background-color: yellow;
+    padding: 5px;
+}
